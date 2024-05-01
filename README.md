@@ -1,6 +1,6 @@
 Loodud programm RSA võtmete genereerimiseks ja teksti krüpteerimiseks ja dekrüpteerimiseks.
 
-Käivitamiseks vajalikud pluginad: rsa, os, argparse
+Käivitamiseks vajalikud pluginad: rsa, argparse.
 
 -Programm genereerib avaliku ja privaatse võtme ja salvestab need failidesse public_key.txt ja private_key.txt.
 
@@ -11,7 +11,7 @@ Käivitamiseks vajalikud pluginad: rsa, os, argparse
 NB! kontrolli, et programmifail on samas kaustas, kuhu võtmed luuakse. Kui pole, kasuta käsku cd (change directory) tühik uusasukoht. N: cd Desktop.
 
 
-Võtmete genereerimiseks: python key_gen.py --generate-keys.
+Võtmete genereerimiseks: python key_gen.py --generate-keys
 
 Teksti krüpteerimiseks käsurealt: python key_gen.py --encrypt "Sinu tekst siia."
 
