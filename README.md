@@ -13,10 +13,8 @@ NB! kontrolli, et programmifail on samas kaustas, kuhu võtmed luuakse. Kui pole
 
 Võtmete genereerimiseks: python key_gen.py --generate-keys
 
-Teksti krüpteerimiseks käsurealt: python key_gen.py --encrypt "Sinu tekst siia."
+Faili krüpteerimiseks: python key_gen.py --encrypt-file "failinimi.txt"
 
-Teksti krüpteerimiseks failist: python key_gen.py --encrypt-file "failinimi.txt"
-
-Teksti dekrüpteerimiseks: python key_gen.py --decrypt-file "failinimi.txt"
+Faili dekrüpteerimiseks: python key_gen.py --decrypt-file "failinimi.txt"
 
 Autorid Eyleen Krikk ja René Vainula.
