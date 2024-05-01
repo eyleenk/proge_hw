@@ -1,4 +1,4 @@
-Loodud programm RSA bõtmete genereerimiseks ja teksti krüpteerimiseks ja dekrüpteerimiseks.
+Loodud programm RSA võtmete genereerimiseks ja teksti krüpteerimiseks ja dekrüpteerimiseks.
 
 Käivitamiseks vajalikud pluginad: rsa, os, argparse
 
@@ -6,7 +6,7 @@ Käivitamiseks vajalikud pluginad: rsa, os, argparse
 
 -Programm krüpteerib sisestatud teksti kasutades privaatset võtit ja salvestab krüpteeritud teksti faili encrypted_text.txt
 
--Programm dekrüpteerib krüpteeritud teksti.
+-Programm dekrüpteerib krüpteeritud teksti ja salvestab faili nimega decrypted_file.txt.
 
 NB! kontrolli, et programmifail on samas kaustas, kuhu võtmed luuakse. Kui pole, kasuta käsku cd (change directory) tühik uusasukoht. N: cd Desktop.
 
