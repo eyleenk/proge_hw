@@ -1,21 +1,22 @@
 5. Kodutöö
 Loodud programm RSA võtmete genereerimiseks ja teksti krüpteerimiseks ja dekrüpteerimiseks.
-
+__________________________________________________________________________________________________________________
 Käivitamiseks vajalikud pluginad: rsa, argparse.
-
+__________________________________________________________________________________________________________________
 -Programm genereerib avaliku ja privaatse võtme ja salvestab need failidesse public_key.txt ja private_key.txt.
 
 -Programm krüpteerib sisestatud teksti kasutades privaatset võtit ja salvestab krüpteeritud teksti faili encrypted_text.txt
 
 -Programm dekrüpteerib krüpteeritud teksti kasutades privaatset võtit ja salvestab faili nimega decrypted_file.txt.
-
+__________________________________________________________________________________________________________________
 NB! kontrolli, et programmifail on samas kaustas, kuhu võtmed luuakse. Kui pole, kasuta käsku cd (change directory) tühik uusasukoht. N: cd Desktop.
-
-
+__________________________________________________________________________________________________________________
 Võtmete genereerimiseks: python key_gen.py --generate-keys
 
 Faili krüpteerimiseks: python key_gen.py --encrypt-file "failinimi.txt"
 
 Faili dekrüpteerimiseks: python key_gen.py --decrypt-file "failinimi.txt"
-
+__________________________________________________________________________________________________________________
+ver2 genereerib võtmed, krüpteerib kasutades public võtit ja dekrüpteerib kasutades private võtit.
+__________________________________________________________________________________________________________________
 Autorid Eyleen Krikk ja René Vainula
