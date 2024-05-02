@@ -1,4 +1,3 @@
-5. Kodutöö
 Loodud programm RSA võtmete genereerimiseks ja teksti krüpteerimiseks ja dekrüpteerimiseks.
 __________________________________________________________________________________________________________________
 Käivitamiseks vajalikud pluginad: rsa, argparse.
