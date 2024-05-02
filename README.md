@@ -19,4 +19,3 @@ Faili krüpteerimiseks: python key_gen.py --encrypt-file "failinimi.txt"
 Faili dekrüpteerimiseks: python key_gen.py --decrypt-file "failinimi.txt"
 
 Autorid Eyleen Krikk ja René Vainula
-________________________________________________________________________________________________________________________________________________________________________________________________
