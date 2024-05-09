@@ -16,7 +16,22 @@ Koostatud project issue ja pull request.
 Analüüsi koostanud: Eyleen Krikk ja René Vainula
 ____________________________________________________________________________________________________________________________________________________________________________________________
 4. Kodutöö
-  
+Loodud programm, mis salvestab sisestatud kasutajanime ja parooli koodis olevasse andmebaasi, millesse on võimalik pärast sisse logida
+Vajalikud moodulid: mysql-connector-python
+
+- Programm võtab sisendina kasutajanime ja parooli;
+- hashib parooli SHA-256 algoritmi abil;
+- kontrollib, kas antud kasutajanimi on juba olemas andmebaasis, selle puudumisel, lisab andmed tabelisse.
+
+- Sisselogides võtab sisendid ja hashib parooli sarnaselt;
+- kontrollib andmebaasist, kas kasutajanimi ja parool vastavad eelnevalt sisestatud andmetele;
+- kui vastavus leitakse, trükib "Sisselogimine õnnestus"; vastasel juhul trükib "Sisselogimine ebaõnnestus".
+
+- Andmebaasiühenduse sulgemiseks tuleb valida lõpuks kolmas valik.
+
+- Andmebaasi muutmine on lihtsasti teostatav, muutes lihtsalt 4.-8. rea teavet.
+- NB! Praegu kasutusel oleva tasuta andmebaasiga tuleb looja meili kaudu uuendada oma soovi seda lahti hoida, muidu suletakse see hiljem. (ei peaks olema probleem XAMPP või muude andmebaasidega)
+
 Autorid Eyleen Krikk ja René Vainula
 ____________________________________________________________________________________________________________________________________________________________________________________________
 5. Kodutöö
