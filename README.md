@@ -15,6 +15,10 @@ Koostatud project issue ja pull request.
 
 Analüüsi koostanud: Eyleen Krikk ja René Vainula
 ____________________________________________________________________________________________________________________________________________________________________________________________
+4. Kodutöö
+  
+Autorid Eyleen Krikk ja René Vainula
+____________________________________________________________________________________________________________________________________________________________________________________________
 5. Kodutöö
 Loodud programm RSA võtmete genereerimiseks ja teksti krüpteerimiseks ja dekrüpteerimiseks.
 
